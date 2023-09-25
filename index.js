@@ -15,7 +15,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 
 
-const allowOrigin = 'https://authentication-mern.onrender.com'
+const allowOrigin = 'https://authentication-mern-v9fl.onrender.com/'
 
 const corsOptions = {
   origin: (origin, callback) => {
